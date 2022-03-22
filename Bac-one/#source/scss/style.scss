@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,400;1,700&display=swap');
+@import "nullstyle.scss";
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+	color: black;
+	&:hover{
+		font-size: 30px;;
+		color: #600;
+	}
+}
+
+.back {
+	&__img {
+		background: url(../img/back/165281-chernyy-atmosfera-mir-poslesvechenie-oblako-1920x1080.jpg) 0 0/cover no-repeat fixed;
+		width: 100%;
+		height: 400px;
+	}
+	&__title {
+		text-shadow: 1px 1px 2px rgb(255, 0, 0);
+		font-style: bold;
+		font-size: 50px;
+		text-align: center;
+		padding: 100px 0px 0px 0px;
+	}
+	&__text {
+		font-size: 22px;
+
+		font-style: italic;
+		text-shadow: 0.4px 0.5px 1.5px red;
+		color: black;
+		height: 35px;
+		text-align: center;
+		padding: 10px 0px 0px 0px;
+	
+	}
+}
+.about {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+	}
+	&__header {}
+	&__title {
+		text-align: center;
+		font-size: 30px;
+		font-style: bold;
+		padding: 30px 0px;
+	}
+	&__text {
+		font-style: italic;
+		padding: 50px 0px;
+		line-height: 30px;
+	}
+	&__row {
+		display: flex;
+		font-size: 0px;
+		margin: 0px -15px;
+	}
+	&__column {
+		flex: 0 0 33.333%;
+	}
+}
+.item-about {
+	&__icon {
+		margin: 0px auto;
+		border-radius: 50%;
+		width: 96px;
+		height: 96px;
+		border: 2px solid #f1f1f1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__title {
+		text-align: center;
+		color: black;
+		font-size: 22px;
+		text-transform: uppercase;
+		letter-spacing: 3.52px;
+		margin: 35px 0px 35px 0px;
+	}
+	&__text {
+		text-align: center;
+		font-size: 15px;
+		font-style: italic;
+		margin: 0px 0px 100px 0px;
+	}	
+}
